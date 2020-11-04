@@ -11,6 +11,8 @@ gem "turbolinks", "~> 5"
 gem "webpacker", "~> 4.0"
 gem "jbuilder", "2.9.1"
 gem "bootsnap", ">= 1.4.2", require: false
+gem "htmlbeautifier"
+gem "rufo"
 
 group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
